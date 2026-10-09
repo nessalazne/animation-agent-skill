@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "animation-agent-skill",
+  "description": "The animation agent skill for Claude Code, Ness edition",
+  "owner": {
+    "name": "Ness Alazne",
+    "url": "https://builds.digicuratoragency.com"
+  },
+  "plugins": [
+    {
+      "name": "animation-agent",
+      "description": "Short animated videos made in code from one prompt. Seven built-in styles or a new one matched from your references, three approval check-ins before any animating, beat-synced music, optional voice-over, and every format from one piece.",
+      "source": "./plugins/animate",
+      "category": "productivity",
+      "homepage": "https://github.com/nessalazne/animation-agent-skill"
+    }
+  ]
+}
