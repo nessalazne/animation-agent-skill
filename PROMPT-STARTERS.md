@@ -71,3 +71,23 @@ Reference media stays on your machine.
 ## More ideas
 
 For a big list of what other people have asked Claude to build in code, browse [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos). Those prompts belong to their creators and were written for general code generation, not for this skill. Use them for ideas and rewrite them as `/animate` prompts. Credit the creator if you share what you make from one.
+
+Three to start with. The ideas are the creators'. The prompts below are new and written for this skill.
+
+**A recipe from empty glass to finished drink.** Idea from [@Ror_Fly](https://x.com/Ror_Fly/status/2102853258582880547), who asked for a 30-second recipe explainer that shows each ingredient and measurement as it goes into the cup.
+
+```
+/animate a 30-second recipe explainer for a classic mojito, from empty glass to finished drink, showing each ingredient and its measurement as it goes in, sketchbook, 9:16
+```
+
+**An ad built from your real product.** Idea from [@redpersongpt](https://x.com/redpersongpt/status/2103807094554284430), who asked for a studio-quality motion ad built from the real product and not a generic mockup. This skill already works that way: give it your address and it takes screenshots of the real site.
+
+```
+/animate a 25-second ad for https://your-site.com, built from real screenshots of the product, one clear benefit per beat, no features that do not exist, isometric, 9:16 and 1:1
+```
+
+**An animation to go with a post.** Idea from [@daniel_mac8](https://x.com/daniel_mac8/status/2103824976713306214), who wanted an animation to accompany an X post and pointed Claude at a reference video for the look. Put your own reference in your project folder first. A path on someone else's computer will not work.
+
+```
+/animate a 20-second animation to go with my post about [your topic], in the style of this video: ./refs/reference.mp4, 16:9
+```
